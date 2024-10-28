@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDoctor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Doctor>
+    <Id>1</Id>
+    <CreatedAt>2024-10-29T00:18:04.097929+01:00</CreatedAt>
+    <UpdatedAt>0001-01-01T00:00:00</UpdatedAt>
+    <Name>Volodymyr</Name>
+    <Surname>Sokolov</Surname>
+    <DoctorType>Dermatologist</DoctorType>
+    <Experience>12</Experience>
+    <Salary>0</Salary>
+  </Doctor>
+</ArrayOfDoctor>
