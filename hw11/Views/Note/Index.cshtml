@@ -8,6 +8,7 @@
             <th>Назва замітки</th>
             <th>Дата створення</th>
             <th>Текст замітки</th>
+            <th>#Tег</th>
             <th>Дії</th>
         </tr>
     </thead>
@@ -18,6 +19,7 @@
                 <td>@note.Title</td>
                 <td>@note.CreatedAt.ToShortDateString()</td>
                 <td>@note.Content</td>
+                <td>@note.Tag</td>
                 <td>
                     <a asp-controller="Note" asp-action="Edit" asp-route-id="@note.Id" class="btn btn-warning">Редагувати</a>
                     <a asp-controller="Note" asp-action="Delete" asp-route-id="@note.Id" class="btn btn-danger">Видалити</a>
